@@ -1,0 +1,141 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    background: #181818;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    zoom: 250%;
+}
+
+.container
+{
+    position: relative;
+}
+
+.logo
+{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7E08E;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration-line: none;
+    text-decoration: dotted;
+}
+
+.logo a
+{
+    color: #C7E08E;
+    text-decoration: none;
+}
+
+.button_group
+{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 20px;
+}
+
+.button
+{
+    border: 0.1px solid #C7E08E;
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 60px;
+    font-size: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button:hover
+{
+    transition: 0.3s;
+    border: none;
+    background-color: #C7E08E;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0px 0px 8px #c7e08e60;
+}
+
+.grid_box
+{
+    margin-top: 70px;
+    margin-left: 220px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+
+.grid
+{
+    border: 0.6px solid #c7e08e64;
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+    align-items: center;
+}
+
+.path
+{
+    fill: none;
+    stroke: white;
+    stroke-width: 2px;
+}
+
+svg
+{
+    background-color: transparent;
+}
+
+.crypto
+{
+    fill: white;
+
+}
+
+.send, .receive, .qr, .crypto
+{
+    margin-top: 28px;
+    margin-left: 28px;
+}
+
+.receive
+{
+    transform: rotate(180deg);
+}
+
+.grid p 
+{
+    font: 100;
+    font-size: 6px;
+    color: #C7E08E;
+    text-align: center;
+    background-color: transparent;
+
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.grid:hover p
+{
+    transition: 1s;
+    background-color: #223100;
+    visibility: visible;
+    opacity: 1;
+}
+
+.grid:hover
+{
+    transition: 0.2s;
+    background-color: #223100;
+    box-shadow: 0px 0px 10px #d4fc790e;
+}

@@ -1,0 +1,111 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    background: #181818;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    zoom: 250%;
+}
+
+.container
+{
+    position: relative;
+}
+
+.left_panel
+{
+    position: absolute;
+    left: 1px;
+    height: 314px;
+    width: 304px;
+}
+
+.right_panel
+{
+    position: absolute;
+    right: 1px;
+    height: 314px;
+    width: 304px;
+}
+
+h3
+{
+    position: absolute;
+    color: #C7E08E;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 35%;
+    margin-left: 55px;
+}
+
+.para
+{
+    margin-top: 150px;
+    margin-left: 60px;
+    line-height: 12px;
+}
+
+h5
+{
+    color: #C7E08E;
+    font-weight: 100;
+    margin-top: 70px;
+    margin-left: 90px;
+}
+
+
+
+.p
+{
+    font-size: 8px;
+}
+
+p
+{
+    position: absolute;
+    color: #969696;
+    font-size: 5px;
+}
+
+.form
+{
+    margin-left: 90px;
+}
+
+.input
+{
+    position: absolute;
+    margin-top: 10px;
+    height: 20px;
+    width: 120px;
+    border: 0.8px solid #C7E08E;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 7px;
+    color: #C7E08E;
+}
+
+.submit_btn
+{
+    margin-top: 20px;
+    border: 1px solid white;
+    height: 25px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 8px;
+    font-weight: 800;
+    color: #C7E08E;
+    background-color: black;
+}
+
+.submit_btn:hover
+{
+    transition: 0.4s;
+    border-style: none;
+    background-color: #C7E08E;
+    color: black;
+}

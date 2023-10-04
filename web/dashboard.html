@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap'); </style>
+
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Transact | Dashboard</title>
+</head>
+<body>
+
+    <div class="logo">
+        <a href="dashboard.html">
+            <h5>Transact</h5>    
+        </a>
+    </div>
+
+        <div class="button_group">
+            <a href="dashboard.html">
+                <button class="button">Pay</button>
+            </a> <br>
+            <a href="balance.jsp">
+                <button class="button">Balance</button>
+            </a> <br>
+            <a href="history.jsp">
+                <button class="button">History</button>
+            </a> <br>
+        </div>
+
+        <div class="grid_box">
+            <div class="grid">
+                <svg class="send" viewBox="0 0 24 24" height="25" width="25">
+                    <path class="path" d="M10.3009 13.6949L20.102 3.89742M10.5795 14.1355L12.8019 18.5804C13.339 19.6545 13.6075 20.1916 13.9458 20.3356C14.2394 20.4606 14.575 20.4379 14.8492 20.2747C15.1651 20.0866 15.3591 19.5183 15.7472 18.3818L19.9463 6.08434C20.2845 5.09409 20.4535 4.59896 20.3378 4.27142C20.2371 3.98648 20.013 3.76234 19.7281 3.66167C19.4005 3.54595 18.9054 3.71502 17.9151 4.05315L5.61763 8.2523C4.48114 8.64037 3.91289 8.83441 3.72478 9.15032C3.56153 9.42447 3.53891 9.76007 3.66389 10.0536C3.80791 10.3919 4.34498 10.6605 5.41912 11.1975L9.86397 13.42C10.041 13.5085 10.1295 13.5527 10.2061 13.6118C10.2742 13.6643 10.3352 13.7253 10.3876 13.7933C10.4468 13.87 10.491 13.9585 10.5795 14.1355Z" stroke="#131A29" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <p class="hint" >Send</p>               
+            </div>
+            <div class="grid">
+                <svg class="qr" viewBox="0 0 512 512" height="25" width="25">
+                    <rect x="336" y="336" width="80" height="80" rx="8" ry="8" fill="white"/>
+                    <rect x="272" y="272" width="64" height="64" rx="8" ry="8" fill="white"/>
+                    <rect x="416" y="416" width="64" height="64" rx="8" ry="8" fill="white"/>
+                    <rect x="432" y="272" width="48" height="48" rx="8" ry="8" fill="white"/>
+                    <rect x="272" y="432" width="48" height="48" rx="8" ry="8" fill="white"/>
+                    <path fill="white" d="M448,32H304a32,32,0,0,0-32,32V208a32,32,0,0,0,32,32H448a32,32,0,0,0,32-32V64A32,32,0,0,0,448,32ZM416,168a8,8,0,0,1-8,8H344a8,8,0,0,1-8-8V104a8,8,0,0,1,8-8h64a8,8,0,0,1,8,8Z"/>
+                    <path fill="white" d="M208,32H64A32,32,0,0,0,32,64V208a32,32,0,0,0,32,32H208a32,32,0,0,0,32-32V64A32,32,0,0,0,208,32ZM176,168a8,8,0,0,1-8,8H104a8,8,0,0,1-8-8V104a8,8,0,0,1,8-8h64a8,8,0,0,1,8,8Z"/>
+                    <path fill="white" d="M208,272H64a32,32,0,0,0-32,32V448a32,32,0,0,0,32,32H208a32,32,0,0,0,32-32V304A32,32,0,0,0,208,272ZM176,408a8,8,0,0,1-8,8H104a8,8,0,0,1-8-8V344a8,8,0,0,1,8-8h64a8,8,0,0,1,8,8Z"/>
+                </svg>
+                <p class="hint" >QR</p> 
+            </div>
+            <div class="grid">
+                <svg class="receive" viewBox="0 0 24 24" height="25" width="25">
+                    <path  class="path" d="M10.3009 13.6949L20.102 3.89742M10.5795 14.1355L12.8019 18.5804C13.339 19.6545 13.6075 20.1916 13.9458 20.3356C14.2394 20.4606 14.575 20.4379 14.8492 20.2747C15.1651 20.0866 15.3591 19.5183 15.7472 18.3818L19.9463 6.08434C20.2845 5.09409 20.4535 4.59896 20.3378 4.27142C20.2371 3.98648 20.013 3.76234 19.7281 3.66167C19.4005 3.54595 18.9054 3.71502 17.9151 4.05315L5.61763 8.2523C4.48114 8.64037 3.91289 8.83441 3.72478 9.15032C3.56153 9.42447 3.53891 9.76007 3.66389 10.0536C3.80791 10.3919 4.34498 10.6605 5.41912 11.1975L9.86397 13.42C10.041 13.5085 10.1295 13.5527 10.2061 13.6118C10.2742 13.6643 10.3352 13.7253 10.3876 13.7933C10.4468 13.87 10.491 13.9585 10.5795 14.1355Z" stroke="#131A29" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <p class="hint" >Receive</p> 
+            </div>
+            <div class="grid">
+                <svg class="qr" width="25" height="25" viewBox="0 0 24 24">
+                    <path class="crypto" d="M8.5 7C7.94772 7 7.5 7.44772 7.5 8C7.5 8.55228 7.94772 9 8.5 9V7ZM8.5 15C7.94772 15 7.5 15.4477 7.5 16C7.5 16.5523 7.94772 17 8.5 17V15ZM11 6.5C11 5.94772 10.5523 5.5 10 5.5C9.44772 5.5 9 5.94772 9 6.5H11ZM12 8C12 8.55228 12.4477 9 13 9C13.5523 9 14 8.55228 14 8H12ZM14 6.5C14 5.94772 13.5523 5.5 13 5.5C12.4477 5.5 12 5.94772 12 6.5H14ZM9 17.5C9 18.0523 9.44772 18.5 10 18.5C10.5523 18.5 11 18.0523 11 17.5H9ZM12 17.5C12 18.0523 12.4477 18.5 13 18.5C13.5523 18.5 14 18.0523 14 17.5H12ZM14 16C14 15.4477 13.5523 15 13 15C12.4477 15 12 15.4477 12 16H14ZM10 9H14V7H10V9ZM14 11H10V13H14V11ZM11 12V8H9V12H11ZM15 10C15 10.5523 14.5523 11 14 11V13C15.6569 13 17 11.6569 17 10H15ZM14 9C14.5523 9 15 9.44772 15 10H17C17 8.34315 15.6569 7 14 7V9ZM14 15H10V17H14V15ZM11 16V12H9V16H11ZM15 14C15 14.5523 14.5523 15 14 15V17C15.6569 17 17 15.6569 17 14H15ZM14 13C14.5523 13 15 13.4477 15 14H17C17 12.3431 15.6569 11 14 11V13ZM20 12C20 16.4183 16.4183 20 12 20V22C17.5228 22 22 17.5228 22 12H20ZM12 20C7.58172 20 4 16.4183 4 12H2C2 17.5228 6.47715 22 12 22V20ZM4 12C4 7.58172 7.58172 4 12 4V2C6.47715 2 2 6.47715 2 12H4ZM12 4C16.4183 4 20 7.58172 20 12H22C22 6.47715 17.5228 2 12 2V4ZM10 7H8.5V9H10V7ZM10 15H8.5V17H10V15ZM11 8V6.5H9V8H11ZM14 8V6.5H12V8H14ZM11 17.5V16H9V17.5H11ZM14 17.5V16H12V17.5H14Z" fill="#131A29"/>
+                </svg>      
+                <p class="hint" >Crypto</p>               
+            </div>
+        </div>
+
+    <div class="container">
+
+    </div>
+</body>
+</html>
